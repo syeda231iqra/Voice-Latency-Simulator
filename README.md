@@ -37,5 +37,5 @@ For real-time voice agents, latency is one of the most important user-experience
 - Reduce unnecessary RAG calls
 - Monitor every pipeline stage separately
 
-## Interview Explanation
+## Explanation
 I built this simulator to show that I understand latency in voice AI. A production system should not wait for the complete audio file if streaming is possible. It should process small audio chunks, generate partial transcripts, and start the response earlier.
